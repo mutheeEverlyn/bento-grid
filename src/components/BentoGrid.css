@@ -1,0 +1,173 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    width: 85%;
+    margin: 30px auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    /* border: 2px solid red; */
+    gap: 20px;
+}
+.createPost{
+    padding: 20px;
+    background-color: hsl(31, 66%, 93%);
+    width: 200px;
+    border-radius: 10px;
+}
+.createPost img{
+    width: 200px;
+    padding-top: 20px;
+}
+.contentAi{
+    width: 200px;
+    background-color: hsl(39, 100%, 71%);
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.contentAi img{
+    width: 200px;
+    padding-top: 30px;
+}
+.social{
+    background-color: hsl(256, 67%, 59%);
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+}
+
+.social p{
+    color: white;
+}
+h1{
+    font-size: 30px;
+    color: white;
+}
+.post{
+    display: flex;
+    margin-top: 10px;
+    gap: 20px;
+}
+.posts{
+    width: 200px;
+    height: 180px;
+    border-radius: 10px;
+    background-color:  hsl(255, 9%, 91%);
+    padding: 10px;
+}
+.posts img{
+    width: 200px;
+}
+.posting{
+    width: 180px;
+    height: 180px;
+    background-color:hsl(39, 100%, 71%); 
+    padding: 10px;
+    border-radius: 10px;
+}
+.posting img{
+    width: 150px;
+    /* height: 70px; */
+}
+
+.growth{
+    width: 200px;
+    height: 170px;   
+    border-radius: 10px;
+    background-color:  hsl(255, 9%, 91%);
+    padding: 10px;
+    margin-top: 10px;
+}
+.growth img{
+    width: 200px;
+}
+.item3{
+    width: 200px;
+    background-color: hsl(254, 88%, 90%);
+    padding: 10px;
+    height: 390px;
+    margin-left: -240px;
+    border-radius: 10px;
+}
+.item3 img{
+    width: 200px;
+    height: 200px;
+}
+.flower{
+    width: 410px;
+    height: 170px; 
+    background-color:hsl(256, 67%, 59%) ; 
+    display: flex;  
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+@media only screen and (max-width:600px){
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    .container{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+    .social{
+        width: 280px;
+        order: 1;
+    }
+    .social img{
+        width: 280px;
+    }
+    .posts{
+        order: 2;
+        width: 280px;
+        padding: 20px;
+    }
+    .posting{
+        order: 3;
+        width: 280px;
+        padding: 20px;
+    }
+    .item3{
+        order: 4;
+        width: 280px;
+        padding: 20px;
+        margin-left: 0px;
+     }
+     .flower{
+        order: 5;
+        width: 280px;
+        display: flex;
+        flex-direction: column;
+        height: 320px;
+        padding: 20px;
+     }
+     .growth{
+        order: 6;
+        width: 280px;
+        padding: 20px;
+     }
+     .createPost{
+        order: 7;
+        width: 280px;
+     }
+     .contentAi{
+        order: 8;
+        width: 280px;
+        padding: 20px;
+     }
+     .flower img{
+        width: 280px;
+     }
+    .post{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
