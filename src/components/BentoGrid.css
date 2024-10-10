@@ -9,7 +9,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     display: flex;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     gap: 20px;
 }
 .createPost{
